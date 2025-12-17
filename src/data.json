@@ -1,0 +1,165 @@
+{
+  "fleet_management": {
+    "vehicles": {
+      "jeepneys": [
+        {
+          "plate_number": "ABC-1234",
+          "driver": "Ramon Santos",
+          "status": "On Road",
+          "maintenance": [
+            { "task": "Oil change", "date": "2025-11-01", "cost": 1500 },
+            { "task": "Tire replacement", "date": "2025-09-15", "cost": 4000 }
+          ]
+        },
+        {
+          "plate_number": "DEF-5678",
+          "driver": "Carlos Dela Cruz",
+          "status": "In Garage",
+          "maintenance": [
+            { "task": "Repair", "date": "2025-10-20", "cost": 2500 }
+          ]
+        },
+        {
+          "plate_number": "GHI-9012",
+          "driver": "Luis Ramirez",
+          "status": "Under Maintenance",
+          "maintenance": [
+            { "task": "Engine repair", "date": "2025-12-05", "cost": 8000 }
+          ]
+        },
+        {
+          "plate_number": "JKL-3456",
+          "driver": "Miguel Navarro",
+          "status": "On Road",
+          "maintenance": [
+            { "task": "Oil change", "date": "2025-11-20", "cost": 1500 }
+          ]
+        },
+        {
+          "plate_number": "MNO-7890",
+          "driver": "Antonio Flores",
+          "status": "In Garage",
+          "maintenance": [
+            { "task": "Tire replacement", "date": "2025-10-10", "cost": 4000 }
+          ]
+        }
+      ],
+      "tricycles": [
+        {
+          "plate_number": "TRI-101",
+          "driver": "Juan Dela Cruz",
+          "status": "On Road",
+          "maintenance": [
+            { "task": "Oil change", "date": "2025-11-05", "cost": 500 }
+          ]
+        },
+        {
+          "plate_number": "TRI-202",
+          "driver": "Maria Santos",
+          "status": "In Garage",
+          "maintenance": [
+            { "task": "Tire replacement", "date": "2025-09-20", "cost": 1200 }
+          ]
+        },
+        {
+          "plate_number": "TRI-303",
+          "driver": "Pedro Reyes",
+          "status": "On Road",
+          "maintenance": [
+            { "task": "Repair", "date": "2025-12-01", "cost": 1500 }
+          ]
+        },
+        {
+          "plate_number": "TRI-404",
+          "driver": "Ana Lopez",
+          "status": "Under Maintenance",
+          "maintenance": [
+            { "task": "Engine repair", "date": "2025-12-07", "cost": 3500 }
+          ]
+        },
+        {
+          "plate_number": "TRI-505",
+          "driver": "Jose Ramos",
+          "status": "On Road",
+          "maintenance": [
+            { "task": "Oil change", "date": "2025-11-15", "cost": 500 }
+          ]
+        }
+      ]
+    },
+    "drivers": [
+      {
+        "name": "Ramon Santos",
+        "license_photo": "ramon_license.jpg",
+        "id": "ramon_id.jpg",
+        "trust_rating": 4.8
+      },
+      {
+        "name": "Carlos Dela Cruz",
+        "license_photo": "carlos_license.jpg",
+        "id": "carlos_id.jpg",
+        "trust_rating": 4.5
+      },
+      {
+        "name": "Luis Ramirez",
+        "license_photo": "luis_license.jpg",
+        "id": "luis_id.jpg",
+        "trust_rating": 4.7
+      },
+      {
+        "name": "Miguel Navarro",
+        "license_photo": "miguel_license.jpg",
+        "id": "miguel_id.jpg",
+        "trust_rating": 4.6
+      },
+      {
+        "name": "Antonio Flores",
+        "license_photo": "antonio_license.jpg",
+        "id": "antonio_id.jpg",
+        "trust_rating": 4.4
+      },
+      {
+        "name": "Juan Dela Cruz",
+        "license_photo": "juan_license.jpg",
+        "id": "juan_id.jpg",
+        "trust_rating": 4.9
+      },
+      {
+        "name": "Maria Santos",
+        "license_photo": "maria_license.jpg",
+        "id": "maria_id.jpg",
+        "trust_rating": 4.7
+      },
+      {
+        "name": "Pedro Reyes",
+        "license_photo": "pedro_license.jpg",
+        "id": "pedro_id.jpg",
+        "trust_rating": 4.5
+      },
+      {
+        "name": "Ana Lopez",
+        "license_photo": "ana_license.jpg",
+        "id": "ana_id.jpg",
+        "trust_rating": 4.6
+      },
+      {
+        "name": "Jose Ramos",
+        "license_photo": "jose_license.jpg",
+        "id": "jose_id.jpg",
+        "trust_rating": 4.8
+      }
+    ],
+    "boundary_collection": [
+      { "driver": "Ramon Santos", "paid": true, "payment_method": "GCash" },
+      { "driver": "Carlos Dela Cruz", "paid": false, "payment_method": null },
+      { "driver": "Luis Ramirez", "paid": true, "payment_method": "Maya" },
+      { "driver": "Miguel Navarro", "paid": false, "payment_method": null },
+      { "driver": "Antonio Flores", "paid": true, "payment_method": "GCash" },
+      { "driver": "Juan Dela Cruz", "paid": true, "payment_method": "Maya" },
+      { "driver": "Maria Santos", "paid": false, "payment_method": null },
+      { "driver": "Pedro Reyes", "paid": true, "payment_method": "GCash" },
+      { "driver": "Ana Lopez", "paid": false, "payment_method": null },
+      { "driver": "Jose Ramos", "paid": true, "payment_method": "Maya" }
+    ]
+  }
+}
