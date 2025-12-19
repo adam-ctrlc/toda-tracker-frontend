@@ -4,7 +4,11 @@
       "jeepneys": [
         {
           "plate_number": "ABC-1234",
-          "driver": "Ramon Santos",
+          "driver": {
+            "first_name": "Ramon",
+            "last_name": "Santos",
+            "middle_initial": "A."
+          },
           "status": "On Road",
           "maintenance": [
             { "task": "Oil change", "date": "2025-11-01", "cost": 1500 },
@@ -13,7 +17,11 @@
         },
         {
           "plate_number": "DEF-5678",
-          "driver": "Carlos Dela Cruz",
+          "driver": {
+            "first_name": "Carlos",
+            "last_name": "Dela Cruz",
+            "middle_initial": "B."
+          },
           "status": "In Garage",
           "maintenance": [
             { "task": "Repair", "date": "2025-10-20", "cost": 2500 }
@@ -21,7 +29,11 @@
         },
         {
           "plate_number": "GHI-9012",
-          "driver": "Luis Ramirez",
+          "driver": {
+            "first_name": "Luis",
+            "last_name": "Ramirez",
+            "middle_initial": "C."
+          },
           "status": "Under Maintenance",
           "maintenance": [
             { "task": "Engine repair", "date": "2025-12-05", "cost": 8000 }
@@ -29,7 +41,11 @@
         },
         {
           "plate_number": "JKL-3456",
-          "driver": "Miguel Navarro",
+          "driver": {
+            "first_name": "Miguel",
+            "last_name": "Navarro",
+            "middle_initial": "D."
+          },
           "status": "On Road",
           "maintenance": [
             { "task": "Oil change", "date": "2025-11-20", "cost": 1500 }
@@ -37,7 +53,11 @@
         },
         {
           "plate_number": "MNO-7890",
-          "driver": "Antonio Flores",
+          "driver": {
+            "first_name": "Antonio",
+            "last_name": "Flores",
+            "middle_initial": "E."
+          },
           "status": "In Garage",
           "maintenance": [
             { "task": "Tire replacement", "date": "2025-10-10", "cost": 4000 }
@@ -47,7 +67,11 @@
       "tricycles": [
         {
           "plate_number": "TRI-101",
-          "driver": "Juan Dela Cruz",
+          "driver": {
+            "first_name": "Juan",
+            "last_name": "Dela Cruz",
+            "middle_initial": "F."
+          },
           "status": "On Road",
           "maintenance": [
             { "task": "Oil change", "date": "2025-11-05", "cost": 500 }
@@ -55,7 +79,11 @@
         },
         {
           "plate_number": "TRI-202",
-          "driver": "Maria Santos",
+          "driver": {
+            "first_name": "Maria",
+            "last_name": "Santos",
+            "middle_initial": "G."
+          },
           "status": "In Garage",
           "maintenance": [
             { "task": "Tire replacement", "date": "2025-09-20", "cost": 1200 }
@@ -63,7 +91,11 @@
         },
         {
           "plate_number": "TRI-303",
-          "driver": "Pedro Reyes",
+          "driver": {
+            "first_name": "Pedro",
+            "last_name": "Reyes",
+            "middle_initial": "H."
+          },
           "status": "On Road",
           "maintenance": [
             { "task": "Repair", "date": "2025-12-01", "cost": 1500 }
@@ -71,7 +103,11 @@
         },
         {
           "plate_number": "TRI-404",
-          "driver": "Ana Lopez",
+          "driver": {
+            "first_name": "Ana",
+            "last_name": "Lopez",
+            "middle_initial": "I."
+          },
           "status": "Under Maintenance",
           "maintenance": [
             { "task": "Engine repair", "date": "2025-12-07", "cost": 3500 }
@@ -79,7 +115,11 @@
         },
         {
           "plate_number": "TRI-505",
-          "driver": "Jose Ramos",
+          "driver": {
+            "first_name": "Jose",
+            "last_name": "Ramos",
+            "middle_initial": "J."
+          },
           "status": "On Road",
           "maintenance": [
             { "task": "Oil change", "date": "2025-11-15", "cost": 500 }
@@ -89,77 +129,197 @@
     },
     "drivers": [
       {
-        "name": "Ramon Santos",
+        "name": {
+          "first_name": "Ramon",
+          "last_name": "Santos",
+          "middle_initial": "A."
+        },
         "license_photo": "ramon_license.jpg",
         "id": "ramon_id.jpg",
         "trust_rating": 4.8
       },
       {
-        "name": "Carlos Dela Cruz",
+        "name": {
+          "first_name": "Carlos",
+          "last_name": "Dela Cruz",
+          "middle_initial": "B."
+        },
         "license_photo": "carlos_license.jpg",
         "id": "carlos_id.jpg",
         "trust_rating": 4.5
       },
       {
-        "name": "Luis Ramirez",
+        "name": {
+          "first_name": "Luis",
+          "last_name": "Ramirez",
+          "middle_initial": "C."
+        },
         "license_photo": "luis_license.jpg",
         "id": "luis_id.jpg",
         "trust_rating": 4.7
       },
       {
-        "name": "Miguel Navarro",
+        "name": {
+          "first_name": "Miguel",
+          "last_name": "Navarro",
+          "middle_initial": "D."
+        },
         "license_photo": "miguel_license.jpg",
         "id": "miguel_id.jpg",
         "trust_rating": 4.6
       },
       {
-        "name": "Antonio Flores",
+        "name": {
+          "first_name": "Antonio",
+          "last_name": "Flores",
+          "middle_initial": "E."
+        },
         "license_photo": "antonio_license.jpg",
         "id": "antonio_id.jpg",
         "trust_rating": 4.4
       },
       {
-        "name": "Juan Dela Cruz",
+        "name": {
+          "first_name": "Juan",
+          "last_name": "Dela Cruz",
+          "middle_initial": "F."
+        },
         "license_photo": "juan_license.jpg",
         "id": "juan_id.jpg",
         "trust_rating": 4.9
       },
       {
-        "name": "Maria Santos",
+        "name": {
+          "first_name": "Maria",
+          "last_name": "Santos",
+          "middle_initial": "G."
+        },
         "license_photo": "maria_license.jpg",
         "id": "maria_id.jpg",
         "trust_rating": 4.7
       },
       {
-        "name": "Pedro Reyes",
+        "name": {
+          "first_name": "Pedro",
+          "last_name": "Reyes",
+          "middle_initial": "H."
+        },
         "license_photo": "pedro_license.jpg",
         "id": "pedro_id.jpg",
         "trust_rating": 4.5
       },
       {
-        "name": "Ana Lopez",
+        "name": {
+          "first_name": "Ana",
+          "last_name": "Lopez",
+          "middle_initial": "I."
+        },
         "license_photo": "ana_license.jpg",
         "id": "ana_id.jpg",
         "trust_rating": 4.6
       },
       {
-        "name": "Jose Ramos",
+        "name": {
+          "first_name": "Jose",
+          "last_name": "Ramos",
+          "middle_initial": "J."
+        },
         "license_photo": "jose_license.jpg",
         "id": "jose_id.jpg",
         "trust_rating": 4.8
       }
     ],
     "boundary_collection": [
-      { "driver": "Ramon Santos", "paid": true, "payment_method": "GCash" },
-      { "driver": "Carlos Dela Cruz", "paid": false, "payment_method": null },
-      { "driver": "Luis Ramirez", "paid": true, "payment_method": "Maya" },
-      { "driver": "Miguel Navarro", "paid": false, "payment_method": null },
-      { "driver": "Antonio Flores", "paid": true, "payment_method": "GCash" },
-      { "driver": "Juan Dela Cruz", "paid": true, "payment_method": "Maya" },
-      { "driver": "Maria Santos", "paid": false, "payment_method": null },
-      { "driver": "Pedro Reyes", "paid": true, "payment_method": "GCash" },
-      { "driver": "Ana Lopez", "paid": false, "payment_method": null },
-      { "driver": "Jose Ramos", "paid": true, "payment_method": "Maya" }
+      {
+        "driver": {
+          "first_name": "Ramon",
+          "last_name": "Santos",
+          "middle_initial": "A."
+        },
+        "paid": true,
+        "payment_method": "GCash"
+      },
+      {
+        "driver": {
+          "first_name": "Carlos",
+          "last_name": "Dela Cruz",
+          "middle_initial": "B."
+        },
+        "paid": false,
+        "payment_method": null
+      },
+      {
+        "driver": {
+          "first_name": "Luis",
+          "last_name": "Ramirez",
+          "middle_initial": "C."
+        },
+        "paid": true,
+        "payment_method": "Maya"
+      },
+      {
+        "driver": {
+          "first_name": "Miguel",
+          "last_name": "Navarro",
+          "middle_initial": "D."
+        },
+        "paid": false,
+        "payment_method": null
+      },
+      {
+        "driver": {
+          "first_name": "Antonio",
+          "last_name": "Flores",
+          "middle_initial": "E."
+        },
+        "paid": true,
+        "payment_method": "GCash"
+      },
+      {
+        "driver": {
+          "first_name": "Juan",
+          "last_name": "Dela Cruz",
+          "middle_initial": "F."
+        },
+        "paid": true,
+        "payment_method": "Maya"
+      },
+      {
+        "driver": {
+          "first_name": "Maria",
+          "last_name": "Santos",
+          "middle_initial": "G."
+        },
+        "paid": false,
+        "payment_method": null
+      },
+      {
+        "driver": {
+          "first_name": "Pedro",
+          "last_name": "Reyes",
+          "middle_initial": "H."
+        },
+        "paid": true,
+        "payment_method": "GCash"
+      },
+      {
+        "driver": {
+          "first_name": "Ana",
+          "last_name": "Lopez",
+          "middle_initial": "I."
+        },
+        "paid": false,
+        "payment_method": null
+      },
+      {
+        "driver": {
+          "first_name": "Jose",
+          "last_name": "Ramos",
+          "middle_initial": "J."
+        },
+        "paid": true,
+        "payment_method": "Maya"
+      }
     ]
   }
 }
